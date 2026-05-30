@@ -1,0 +1,96 @@
+Crie um site completo em HTML/CSS/JS (arquivo único index.html) para a Aurea Arquitetura, um escritório de arquitetura minimalista e contemporâneo sediado em Belo Horizonte. O site deve estar pronto para deploy na Vercel.
+
+---
+
+IDENTIDADE DA MARCA
+
+Nome: Aurea Arquitetura
+Tagline: "Onde a forma encontra o propósito."
+Conceito central: Minimalismo. Precisão. Permanência.
+Tom: Sofisticado, silencioso, intencional — como os próprios projetos do escritório.
+
+---
+
+DIREÇÃO ESTÉTICA
+
+- Paleta: Fundo off-white ou creme muito suave (#F7F5F0), texto em preto-carvão (#1A1A18), detalhes em dourado discreto (#B8975A) como linha de acento.
+- Tipografia: Cormorant Garamond (serif elegante) para títulos e destaques; DM Sans ou Outfit (sans-serif leve) para corpo de texto. Importar via Google Fonts.
+- Layout: Amplo, silencioso. Margens generosas. Grid assimétrico com elementos quebrados de grade para criar tensão visual. Sem excesso de bordas ou cards.
+- Animações: Fade-in suave ao scroll (Intersection Observer), transições lentas (0.6s ease). Nada que distraia — apenas o que revela.
+- Sem imagens reais: usar blocos de placeholder elegantes com proporção cinematográfica (16:9 e 4:3), preenchidos com gradiente sutil em tons neutros e texto centralizado em fonte fina.
+
+---
+
+SEÇÕES DO SITE (em ordem)
+
+1. HERO
+   - Ocupar 100vh
+   - Logo "AUREA" centralizado ou alinhado à esquerda (apenas o nome em Cormorant, tracking largo)
+   - Subtítulo: "Onde a forma encontra o propósito."
+   - Linha horizontal dourada de 1px como detalhe
+   - Sem botão CTA óbvio — sutil scroll indicator (↓ ou linha pulsante)
+
+2. SOBRE
+   - Texto em duas colunas (desktop): à esquerda um bloco de placeholder de imagem; à direita o texto da empresa
+   - Texto: "A Aurea Arquitetura nasceu da ideia de que bons espaços não precisam de excessos para gerar impacto. Com uma abordagem contemporânea e minimalista, desenvolvemos projetos que equilibram estética, funcionalidade e identidade — transformando ambientes em experiências duradouras."
+   - Adicionar: "Cada detalhe é pensado com precisão. Cada linha possui uma intenção."
+
+3. CONCEITO
+   - Seção full-width com fundo escuro (quase preto: #141412)
+   - Citação em destaque: "Arquitetura não é sobre preencher espaços. É sobre revelar possibilidades."
+   - Fonte grande, Cormorant Italic
+   - Três pilares abaixo em grid: Minimalismo / Precisão / Permanência — com linha dourada acima de cada um e breve descrição
+
+4. SERVIÇOS
+   - Lista em grid de 2 ou 3 colunas
+   - Serviços: Arquitetura Residencial, Arquitetura Comercial, Interiores de Alto Padrão, Reformas e Retrofit, Consultoria Arquitetônica, Design de Espaços Corporativos
+   - Cada item: número em dourado pequeno (01, 02...) + nome do serviço + linha separadora
+
+5. PROJETOS (portfólio fictício)
+   - Grid masonry ou alternado com 4 placeholders de projeto
+   - Nomes fictícios sugestivos: "Casa Minas", "Escritório Central", "Residência Savassi", "Loft Jardins"
+   - Hover: overlay escuro com nome do projeto e ano
+
+6. METODOLOGIA
+   - Linha do tempo horizontal (desktop) ou vertical (mobile)
+   - Etapas: Escuta → Análise → Conceito → Desenvolvimento → Entrega
+   - Ícones simples (SVG inline) + descrição curta de cada fase
+
+7. CONTATO
+   - Layout simples: informações à esquerda, formulário minimalista à direita
+   - Endereço: Rua das Acácias, 245 — Savassi, Belo Horizonte / MG
+   - Telefone: (31) 3333-4821
+   - E-mail: contato@aureaarquitetura.com.br
+   - Horário: Segunda a Sexta, 08:00 — 18:00
+   - Formulário com campos: Nome, E-mail, Tipo de projeto (select), Mensagem, botão "Enviar"
+
+8. RODAPÉ
+   - Razão Social: Aurea Arquitetura e Design Ltda.
+   - CNPJ: 48.729.315/0001-82
+   - Responsável Técnico: Arq. Helena Montenegro — CAU A987654-2
+   - © 2025 Aurea Arquitetura. Todos os direitos reservados.
+
+---
+
+REQUISITOS TÉCNICOS
+
+- Arquivo único index.html (CSS e JS embutidos na mesma página)
+- Responsivo: mobile-first, breakpoints em 768px e 1200px
+- Menu fixo no topo com blur de fundo ao rolar (backdrop-filter: blur)
+- Smooth scroll nativo
+- Sem frameworks externos (apenas Google Fonts via @import)
+- Formulário com validação básica em JS puro (sem backend)
+- Meta tags de SEO: title, description, og:title, og:description, viewport
+- Favicon inline em SVG (letra "A" estilizada em dourado)
+- Performance: sem imagens externas, código limpo e semântico
+
+---
+
+DETALHES FINAIS
+
+- O site deve transmitir silêncio e confiança — a identidade do escritório está no espaço em branco tanto quanto no conteúdo
+- Evitar qualquer elemento genérico de template: nenhum ícone Font Awesome, nenhum Bootstrap, nenhum estilo padrão de "site de arquiteto"
+- A navegação deve ser discreta: links em letras pequenas, uppercase, tracking largo
+- O scroll deve ser uma experiência — revelar o conteúdo gradualmente
+
+Gere o arquivo completo e funcional, pronto para fazer upload na Vercel como site estático.
